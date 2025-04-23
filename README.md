@@ -3,9 +3,13 @@
 A C++ console application that simulates a simple online shopping experience, allowing users to add products to a cart, remove items, and view their total balance.
 
 ## Features
+
 ✔ Product Management – Stores product details (name, price, stock, ID).
+
 ✔ Shopping Cart Operations – Add/remove products with stock validation.
+
 ✔ Interactive Menu – User-friendly command-line interface.
+
 ✔ Real-Time Balance Calculation – Automatically updates the total cost.
 
 ## How It Works
@@ -28,7 +32,7 @@ A C++ console application that simulates a simple online shopping experience, al
 
 ### Code Structure
 
-####1. Product Class
+1. Product Class
  Attributes:
 
 name (string)
@@ -47,7 +51,7 @@ isAvailable(quantity) – Checks if the requested quantity is in stock.
 
 Getters (get_name(), get_price(), get_id()).
 
-#### 2. ShoppingCart Class
+ 2. ShoppingCart Class
 Attributes:
 
 cart – A vector<pair<Product, int>> storing products + quantities.
@@ -60,7 +64,7 @@ remove_product(id) – Removes a product by ID.
 
 display_card() – Shows cart contents and calculates the total balance.
 
-#### 3. main() Function
+ 3. main() Function
 Initializes a list of default products.
 
 Provides a menu-driven interface:
