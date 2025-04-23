@@ -69,18 +69,20 @@ Initializes a list of default products.
 
 Provides a menu-driven interface:
 
-1. Add product  
-2. Remove product  
-3. Display cart  
+& 1. Add product  
+@ 2. Remove product  
+% 3. Display cart  
 Handles user input in a loop.
 
 ## How to Run
 Compile with a C++17-compatible compiler (e.g., g++):
 
 sh
+
 g++ main.cpp -o shopping_cart
 Run the executable:
 
 sh
+
 ./shopping_cart
 Follow the on-screen prompts.
