@@ -69,9 +69,9 @@ Initializes a list of default products.
 
 Provides a menu-driven interface:
 
-& 1. Add product  
-@ 2. Remove product  
-% 3. Display cart  
+ 1. Add product  
+ 2. Remove product  
+ 3. Display cart  
 Handles user input in a loop.
 
 ## How to Run
